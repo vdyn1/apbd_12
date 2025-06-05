@@ -3,6 +3,20 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Rider and JetBrains IDE folders
+.idea/
+*.sln.iml
+
+# Ignore build results
+bin/
+obj/
+
+# OS-specific files
+.DS_Store
+
+# Ignore user-specific Rider config files
+*.DotSettings.user
+
 # User-specific files
 *.rsuser
 *.suo
